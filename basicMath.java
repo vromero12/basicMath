@@ -1,6 +1,13 @@
 package basicMath;
 
 public class basicMath {
+	
+	public static boolean factor_3(int i) {
+		if (i % 3 == 0)
+			return true; 
+		
+			return false;
+	}
 
 	private static boolean isOdd(int i) {
 		if(i % 2==0) {
