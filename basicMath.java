@@ -15,7 +15,7 @@ public class basicMath {
 		}
 		if (i % 2==1)
 			return true;
-
+	}
 
 	public static int factorial(int i) {
 		if(i==1)
